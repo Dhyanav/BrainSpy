@@ -56,3 +56,17 @@ Now, for any general voxel [i j k], coordinates [x y z] are given by
 -> Meta data structure: In NIfTI, meta data is 3d voxel array. In DICOM, meta data is 2d pixel array of each slice and each slice is stored seperately as a file.
 -> File Formates: NIfTI only has one file while DICOM has individual files for all slices.
 -> NIfTI is easier to use. DICOM is also easy to use, but it requires a bit more work.
+
+
+Visualisations:
+1.)This is plot of .nii data
+<img width="540" alt="Screenshot 2025-05-31 at 8 29 34 PM" src="https://github.com/user-attachments/assets/0ff85663-6e12-4442-92b3-2130a6fb718a" />
+
+2.)This is same plot but with sliders.
+<img width="542" alt="Screenshot 2025-05-31 at 8 29 44 PM" src="https://github.com/user-attachments/assets/738bdda2-ba7d-4708-bcb3-3552961351c1" />
+
+3.)This is plot of .dcm data read slice by slice(axial direction).
+<img width="282" alt="Screenshot 2025-05-31 at 8 30 17 PM" src="https://github.com/user-attachments/assets/63154483-5b3c-4103-9360-d28af3e4bf49" />
+
+4.)This plot is of .dcm data with same function as that of .nii data(Used to verify that if plots match, then approach was correct)
+<img width="569" alt="Screenshot 2025-05-31 at 8 30 30 PM" src="https://github.com/user-attachments/assets/2d4318da-a9b6-4ac4-b570-36041638ec0a" />
