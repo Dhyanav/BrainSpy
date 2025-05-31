@@ -69,4 +69,4 @@ Visualisations:
 <img width="282" alt="Screenshot 2025-05-31 at 8 30 17 PM" src="https://github.com/user-attachments/assets/63154483-5b3c-4103-9360-d28af3e4bf49" />
 
 4.)This plot is of .dcm data with same function as that of .nii data(Used to verify that if plots match, then approach was correct)
-<img width="569" alt="Screenshot 2025-05-31 at 8 30 30 PM" src="https://github.com/user-attachments/assets/2d4318da-a9b6-4ac4-b570-36041638ec0a" />
+<img width="569" alt="Screenshot 2025-05-31 at 8 30 30 PM" src="https://github.com/user-attachments/assets/a0dcfc8e-0f1f-4691-a53b-ae891f621c3f" />
