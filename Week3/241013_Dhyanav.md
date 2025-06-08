@@ -19,15 +19,24 @@ Task 2
 ANN:
 I started with 2 hidden layers, but gradually increased the layers so it was computationally viable. Finally, there are 4 layers. I also doubled the number of neurons in each layer and stuck with it since it increased accuracy without overfitting.
 
-I trained for 15 epochs. Since, loss is steadily decreasing, implementing early stopping was not useful. Increasing epochs led to an increase in difference between training accuracy and test accuracy. I finally decided to use 15 epochs since the difference was only 5%.
+I trained for 20 epochs. Since, loss is steadily decreasing, implementing early stopping was not useful. Increasing epochs led to an increase in difference between training accuracy and test accuracy. I finally decided to use 20 epochs since the difference was only 5%.
 
+<img width="847" alt="Screenshot 2025-06-08 at 10 27 42 PM" src="https://github.com/user-attachments/assets/48de6120-9be6-4798-8334-673ba48fa91e" />
+
+<img width="485" alt="Screenshot 2025-06-08 at 10 28 03 PM" src="https://github.com/user-attachments/assets/9bc17a50-37d0-4573-9a29-89c66e62f8aa" />
 
 CNN:
 I used a similar process as in ANN. Gradually increasing the number of layers and number of neurons in each layer till I was satisfied with the result. I tried implementing early stopping but it was useless as only the last three layers were showing signs of saturation and early stopping evaluates accuracy of three layers before stopping training.
 
-In both, I used ADAM optimiser, so learning rate was not a part of experimentation as ADAM adjusts learning rate accordingly. I increased batch size from 32 to 256 to speed up training while also maintaining accuracy. (After 256, accuracy started to drop.)
+In both, I used ADAM optimiser, so learning rate was not a part of experimentation as ADAM adjusts learning rate accordingly. I increased batch size from 32 to 128 to speed up training while also maintaining accuracy.
 
-On the CNN model, I implemented one-pixel attack. THis is a type of attack where the attacker randomly selects a pixel and manipulates it. It is known to reduce accuracy of the model by a significant margin. But since I implemented cutout in data augmentation, model accuracy only dropped from 91.24% to 83.34
+<img width="855" alt="Screenshot 2025-06-08 at 10 32 11 PM" src="https://github.com/user-attachments/assets/36d6251a-963b-418b-83cc-0e0d385172d1" />
+
+<img width="486" alt="Screenshot 2025-06-08 at 10 32 23 PM" src="https://github.com/user-attachments/assets/1962f1f8-c693-4770-8880-8d8a8b7da67f" />
+
+On the CNN model, I implemented one-pixel attack. THis is a type of attack where the attacker randomly selects a pixel and manipulates it. It is known to reduce accuracy of the model by a significant margin. But since I implemented cutout in data augmentation, model accuracy only dropped from 92.71% to 84.3%
+
+<img width="424" alt="Screenshot 2025-06-08 at 10 32 41 PM" src="https://github.com/user-attachments/assets/63cbb280-dbf7-4c19-9c76-a5143b0c07ff" />
 
 Task 3-6(Sumit and Shikhar)
 AlexNet, LeNet, VGG16(Sumit)
