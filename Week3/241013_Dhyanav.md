@@ -34,6 +34,12 @@ In both, I used ADAM optimiser, so learning rate was not a part of experimentati
 
 <img width="486" alt="Screenshot 2025-06-08 at 10 32 23 PM" src="https://github.com/user-attachments/assets/1962f1f8-c693-4770-8880-8d8a8b7da67f" />
 
+I also trained the same models, ANN and CNN on raw CIFAR10 data and the difference in accuracy was significant.
+
+<img width="545" alt="Screenshot 2025-06-08 at 10 43 10 PM" src="https://github.com/user-attachments/assets/86801e5c-57a9-4a9c-958c-acf735eec871" />
+
+<img width="548" alt="Screenshot 2025-06-08 at 10 43 28 PM" src="https://github.com/user-attachments/assets/5457f90f-3702-40fe-abbd-1427d662a334" />
+
 On the CNN model, I implemented one-pixel attack. THis is a type of attack where the attacker randomly selects a pixel and manipulates it. It is known to reduce accuracy of the model by a significant margin. But since I implemented cutout in data augmentation, model accuracy only dropped from 92.71% to 84.3%
 
 <img width="424" alt="Screenshot 2025-06-08 at 10 32 41 PM" src="https://github.com/user-attachments/assets/63cbb280-dbf7-4c19-9c76-a5143b0c07ff" />
